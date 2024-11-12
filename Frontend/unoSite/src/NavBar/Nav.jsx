@@ -28,8 +28,8 @@ export function Nav(){
     
     return(
         <>
-        <div data-aos="slide-down"  className="bg-[#192a56] h-[150px] w-full flex items-center">
-          <img src={unoImage} className="h-[120px] w-[120px] rounded-full ml-[100px]"></img>
+        <div data-aos="slide-down"  className="bg-[#192a56] h-[90px] w-full flex items-center">
+          <img src={unoImage} className="h-[70px] w-[70px] rounded-full ml-[100px]"></img>
           <div className="list-none text-white font-bold text-[30px] h-[100px] w-auto space-x-28 absolute right-[100px] flex items-center justify-center">
             <li>Home</li>
             <li>About</li>
