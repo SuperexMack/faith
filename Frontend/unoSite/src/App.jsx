@@ -5,6 +5,8 @@ import { Landing } from "./Landing/Landing";
 import { Login } from "./Auth/Login";
 import { Profile } from "./UseProfile/Profile";
 import { LeaderBoard } from "./Leaderboard/LeaderBoard";
+import { Posting } from "./Posting/Posting";
+import { SearchProject } from "./Searching/SearchProject";
 
 function App() {
 
@@ -16,6 +18,8 @@ function App() {
         <Route path="/login" element={<Login></Login>}></Route>
         <Route path="/profile" element={<Profile></Profile>}></Route>
         <Route path="/reward" element={<LeaderBoard></LeaderBoard>}></Route>
+        <Route path="/post" element={<Posting></Posting>}></Route>
+        <Route path="/search" element={<SearchProject></SearchProject>}></Route>
       </Routes>
       </BrowserRouter>
     </>
