@@ -34,7 +34,7 @@ export function Nav(){
           <div className="list-none text-white font-bold text-[25px] h-[100px] w-auto space-x-16 absolute right-[100px] flex items-center justify-center">
             <li><Link to="/">Home</Link></li>
             <li><Link to="/reward">LeaderBoard</Link></li>
-            <li><Link to="profile">Profile</Link></li>
+            <li><Link to="/profile">Profile</Link></li>
             <li><Link to="/login">Login</Link></li>
             <li><Link to="/post">Show Your work</Link></li>
             <li><Link to="/search">Search People's work</Link></li>
