@@ -8,7 +8,7 @@ import garbage from "./garbage.webp"
 
 export function Profile() {
   return (
-    <div className="min-h-screen bg-gradient-to-r from-gray-100 via-blue-50 to-gray-100 flex flex-col items-center py-10">
+    <div className="h-auto bg-gradient-to-r from-gray-100 via-blue-50 to-gray-100 flex flex-col items-center py-10">
       <div className="w-full max-w-6xl flex flex-col lg:flex-row items-center lg:justify-around bg-white shadow-lg rounded-xl p-8 space-y-6 lg:space-y-0 lg:space-x-8">
         <div className="w-60 h-60">
           <img src={profilePhoto} alt="Profile" className="h-full w-full rounded-full border-4 border-blue-300 shadow-lg object-cover"/>
