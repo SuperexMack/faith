@@ -29,13 +29,15 @@ export function Nav(){
     
     return(
         <>
-        <div data-aos="slide-down"  className="bg-[#192a56] h-[90px] w-full flex items-center">
+        <div data-aos="slide-down"  className="bg-blue-800 h-[90px] w-full flex items-center">
           <img src={unoImage} className="h-[70px] w-[70px] rounded-full ml-[100px]"></img>
-          <div className="list-none text-white font-bold text-[30px] h-[100px] w-auto space-x-28 absolute right-[100px] flex items-center justify-center">
+          <div className="list-none text-white font-bold text-[25px] h-[100px] w-auto space-x-16 absolute right-[100px] flex items-center justify-center">
             <li><Link to="/">Home</Link></li>
             <li><Link to="/reward">LeaderBoard</Link></li>
             <li><Link to="profile">Profile</Link></li>
             <li><Link to="/login">Login</Link></li>
+            <li><Link to="/post">Show Your work</Link></li>
+            <li><Link to="/search">Search People's work</Link></li>
           </div>
          
         </div>

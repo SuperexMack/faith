@@ -1,6 +1,7 @@
 
 export function Cards({imageo,head}) {
   return (
+    
     <div  className="bg-white rounded-xl shadow-md hover:shadow-xl transition-transform transform hover:scale-105 p-6 space-y-4 border border-blue-100">
       <h1 className="text-2xl font-bold text-blue-800 text-center">
         {head}
