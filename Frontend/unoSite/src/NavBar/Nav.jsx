@@ -1,6 +1,7 @@
 import unoImage from "./UNO.png"
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import {Link} from "react-router-dom";
 export function Nav(){
     
     AOS.init({
@@ -31,10 +32,10 @@ export function Nav(){
         <div data-aos="slide-down"  className="bg-[#192a56] h-[90px] w-full flex items-center">
           <img src={unoImage} className="h-[70px] w-[70px] rounded-full ml-[100px]"></img>
           <div className="list-none text-white font-bold text-[30px] h-[100px] w-auto space-x-28 absolute right-[100px] flex items-center justify-center">
-            <li>Home</li>
-            <li>About</li>
-            <li>Contact</li>
-            
+            <li><Link to="/">Home</Link></li>
+            <li><Link to="/reward">LeaderBoard</Link></li>
+            <li><Link to="profile">Profile</Link></li>
+            <li><Link to="/login">Login</Link></li>
           </div>
          
         </div>

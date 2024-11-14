@@ -6,6 +6,8 @@ import flood from "./flood.jpg"
 import garbage from "./garbage.webp"
 
 
+
+
 export function Profile() {
   return (
     <div className="h-auto bg-gradient-to-r from-gray-100 via-blue-50 to-gray-100 flex flex-col items-center py-10">
